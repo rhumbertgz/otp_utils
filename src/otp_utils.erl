@@ -1,7 +1,7 @@
 -module(otp_utils).
 
 %% API exports
--export([get_otp_version/0, get_current_time/0]).
+-export([get_otp_release/0, get_current_time/0]).
 
 %%====================================================================
 %% API functions
