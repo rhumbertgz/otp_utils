@@ -1,0 +1,15 @@
+{application, otp_utils,
+ [{description, "An OTP library for compatibility between different Erlang versions"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, ["Humberto Rodriguez Avila"]},
+  {licenses, ["Apache License-2.0"]},
+  {links, [{"Github", "https://github.com/rhumbertgz/opt_utils"}]}
+  ]}.
