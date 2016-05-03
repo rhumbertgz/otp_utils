@@ -19,7 +19,7 @@ get_otp_release() ->
 %% in the same format as returned by erlang:now/0
 %% @end
 get_current_time() ->
-  case get_opt_version() >= 18 of
+  case get_otp_release() >= 18 of
     true -> erlang:timestamp();
     _    -> erlang:now()
   end.
